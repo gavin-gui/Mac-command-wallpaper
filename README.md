@@ -2,15 +2,27 @@
 
 ![](./source/demonstration.gif)
 
-![](./source/demonstration-alfred.gif)
-
 
 
 ## 命令格式
 
 `wallpaper [para1] [para2] [para3]`
 
-## 功能
+## v2.0更新内容
+
+> 为了更方便的使用壁纸切换的命令，做到最精简，出了`Alfred`版本，即`Mac-wallpaper-switcher`。
+>
+> **效果如下**
+
+![](./source/alfred-wallpaper.gif)
+
+> [Mac-wallpaper-switcher 下载地址](https://github.com/xiaobocser/Mac-command-wallpaper/releases/tag/v2.0)
+>
+> 而且，`基础功能`中的很多代码进行了重写，为了保证`无需配置的Mac`可以正常使用，通用性更好。
+>
+> 当然，如果您不需要`Alfred`的`workflow`功能，那么可以继续`更愉快`的使用基础功能 ^ ^
+
+## 基础功能
 
 1. 设定所选图片为壁纸
 
@@ -120,6 +132,10 @@
 5. 安装Ghostscript
 
       `brew install ghostscript`
+
+6. 再次运行`install.sh`
+
+      `bash install.sh`
 
 ## 感谢
 
